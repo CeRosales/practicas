@@ -1,0 +1,28 @@
+{
+  "name": "adalab-netflix",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "publish-react": "cd web && npm run build && cd .. && rm -rf ./src/public-react && mv ./web/build ./src/public-react",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "adalab",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^7.5.3",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "description": "### Cómo arrancar el backend",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adalab/promo-P-module-4-pair-18-netflix.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Adalab/promo-P-module-4-pair-18-netflix/issues"
+  },
+  "homepage": "https://github.com/Adalab/promo-P-module-4-pair-18-netflix#readme"
+}
